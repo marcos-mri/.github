@@ -21,9 +21,9 @@ MaRCoS (MAgnetic Resonance COntrol System) is an open-source initiative develope
 
 MaRCoS consists of three main components:
 
-1. **Hardware:** MaRCoS runs on a Red Pitaya SDRLab 122–16 (https://redpitaya.com/sdrlab-122-16), a commercial board featuring two analog inputs for digitizing received data and two analog outputs for generating RF transmit waveforms. It interfaces with either a GPA-FHDO (https://github.com/menkueclab) or an OCRA1 (https://zeugmatographix.org/ocra/2020/11/27/ocra1-spi-controlled-4-channel-18bit-dac-and-rf-attenutator/) four-channel gradient board.
-2. **Firmware:** MaRCoS firmware (https://github.com/vnegnev), that operates on FPGA hardware, manages real-time data streaming, synchronization, and controls various aspects, including transmit, gradient, digital I/O, and ADC data acquisition.
-3. **Software:** MaRCoS can be controled at high level from a client PC through Python scripts, Pulseq/PyPulseq (https://github.com/imr-framework/pypulseq), or by the dedicated MaRCoS Graphical Environment (MaRGE, https://github.com/mriLab-i3M/MaRGE).
+1. **Hardware:** MaRCoS runs on a [Red Pitaya SDRLab 122–16](https://redpitaya.com/sdrlab-122-16), a commercial board featuring two analog inputs for digitizing received data and two analog outputs for generating RF transmit waveforms. It interfaces with either a [GPA-FHDO](https://github.com/menkueclab) or an [OCRA1](https://zeugmatographix.org/ocra/2020/11/27/ocra1-spi-controlled-4-channel-18bit-dac-and-rf-attenutator/) four-channel gradient board.
+2. **Firmware:** [MaRCoS firmware](https://github.com/vnegnev), that operates on FPGA hardware, manages real-time data streaming, synchronization, and controls various aspects, including transmit, gradient, digital I/O, and ADC data acquisition.
+3. **Software:** MaRCoS can be controled at high level from a client PC through Python scripts, [Pulseq](https://pulseq.github.io/matlab.html)/[PyPulseq](https://github.com/imr-framework/pypulseq), or by the dedicated MaRCoS Graphical Environment ([MaRGE](https://github.com/mriLab-i3M/MaRGE)).
 
 ## Publications
 Guallart‐Naval, T., O’Reilly, T., Algarín, J. M., Pellicer‐Guridi, R., Vives‐Gilabert, Y., Craven‐Brightman, L., Negnevitsky, V., Menküc, B., Galve, F., Stockmann, J. P., Webb, A., & Alonso, J. (2022). Benchmarking the performance of a low‐cost magnetic resonance control system at multiple sites in the open MaRCoS community. NMR in Biomedicine, 36(1), 1–13. https://doi.org/10.1002/nbm.4825
@@ -32,7 +32,7 @@ Negnevitsky, V., Vives-gilabert, Y., Algarín, J. M., Craven-Brightman, L., Pell
 
 ## Acknowledgments
 
-We express our gratitude to the international community of low-field MRI researchers for their contributions to the development of MaRCoS, including: Tom O'Reilly and Andrew Webb from the Department of Radiology, Leiden University Medical Center, Leiden, The Netherlands; Benjamin Menküc from University of Applied Sciences and Arts Dortmund, Germany; Lincoln Craven-Brightman and Jason P. Stockmann from Massachusetts General Hospital (MGH), A. A. Martinos Center for Biomedical Imaging, Charlestown, MA, USA. Also a special aknoledgment to Thomas Witzel from MGH for developing OCRA (https://www.opensourceimaging.org/project/ocra-open-source-console-for-real-time-acquisition), the predecessor of MaRCoS.  
+We express our gratitude to the international community of low-field MRI researchers for their contributions to the development of MaRCoS, including: Tom O'Reilly and Andrew Webb from the Department of Radiology, Leiden University Medical Center, Leiden, The Netherlands; Benjamin Menküc from University of Applied Sciences and Arts Dortmund, Germany; Lincoln Craven-Brightman and Jason P. Stockmann from Massachusetts General Hospital (MGH), A. A. Martinos Center for Biomedical Imaging, Charlestown, MA, USA. Also a special aknoledgment to Thomas Witzel from MGH for developing [OCRA](https://www.opensourceimaging.org/project/ocra-open-source-console-for-real-time-acquisition), the predecessor of MaRCoS.  
 
 Thank you for being a part of the MaRCoS community!
 
