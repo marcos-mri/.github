@@ -26,9 +26,11 @@ MaRCoS consists of three main components:
 3. **Software:** MaRCoS can be controled at high level from a client PC through Python scripts, [Pulseq](https://pulseq.github.io/matlab.html)/[PyPulseq](https://github.com/imr-framework/pypulseq), or by the dedicated MaRCoS Graphical Environment ([MaRGE](https://github.com/mriLab-i3M/MaRGE)).
 
 ## Publications
-Guallart‐Naval, T., O’Reilly, T., Algarín, J. M., Pellicer‐Guridi, R., Vives‐Gilabert, Y., Craven‐Brightman, L., Negnevitsky, V., Menküc, B., Galve, F., Stockmann, J. P., Webb, A., & Alonso, J. (2022). Benchmarking the performance of a low‐cost magnetic resonance control system at multiple sites in the open MaRCoS community. NMR in Biomedicine, 36(1), 1–13. https://doi.org/10.1002/nbm.4825
+Guallart‐Naval, T., O’Reilly, T., Algarín, J. M., Pellicer‐Guridi, R., Vives‐Gilabert, Y., Craven‐Brightman, L., Negnevitsky, V., Menküc, B., Galve, F., Stockmann, J. P., Webb, A., & Alonso, J. (2022). Benchmarking the performance of a low‐cost magnetic resonance control system at multiple sites in the open MaRCoS community. NMR in Biomedicine, 36(1), 1–13. https://doi.org/10.1002/nbm.4825 
+[![](https://img.shields.io/badge/citations-blue)](https://scholar.google.com/scholar?cites=3003368430876529690&as_sdt=2005&sciodt=0,5&hl=es&oi=gsb)
 
 Negnevitsky, V., Vives-gilabert, Y., Algarín, J. M., Craven-Brightman, L., Pellicer-guridi, R., O'Reilly, T., Stockmann, J. P., Webb, A., Alonso, J., & Menküc, B. (2023). MaRCoS, an open-source electronic control system for low-field MRI. Journal of Magnetic Resonance, 350, 107424. https://doi.org/10.1016/j.jmr.2023.107424
+[![](https://img.shields.io/badge/citations-blue)](https://scholar.google.com/scholar?cites=8536552105319785905&as_sdt=2005&sciodt=0,5&hl=es&oi=gsb)
 
 ## Acknowledgments
 
