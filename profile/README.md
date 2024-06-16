@@ -9,6 +9,8 @@
 
 MaRCoS (MAgnetic Resonance COntrol System) is an open-source initiative developed by an international community of low-field MRI researchers. It serves as an electronic control system for magnetic resonance imaging (MRI) devices, handling pulse sequences, signal detection, and processing.
 
+Please see the [MaRCoS Wiki](https://github.com/vnegnev/marcos_extras/wiki) for more detailed technical information, examples and tutorials/setup guides.
+
 ### Key Features
 
 - **Inexpensive:** MaRCoS provides a cost-effective solution for MRI device control.
